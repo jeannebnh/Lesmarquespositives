@@ -1,0 +1,49 @@
+body {text-align: center;
+	background: beige;
+    font-family: arial;
+    }
+
+h1{color:whitesmoke; font-family}
+h2{color:whitesmoke; font-family}
+h3{color:black;font-family}
+
+.frame {
+ background: lightcoral;
+ padding: 10px;
+ margin:70px;
+
+
+ border: solid 5px hotpink;
+ border-radius: 100px;
+  }
+/*.images/mcdoticketmama.jpg 
+width: 250px ;
+height: 250px ;
+border: none;
+}*/
+
+.box-frame {
+    display: flex;
+    justify-content: center;
+}
+
+.box-pink {
+    background: lightpink;
+    height: 500px;
+    width: 700px;
+
+}
+
+.box-purple{
+    background: mediumpurple;
+    height: 500px;
+    width: 700px;
+}
+
+.box-white{
+    background: white;
+    height: 500px;
+    width: 700px;
+}
+
+h4{color:whitesmoke;}
