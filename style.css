@@ -1,49 +1,200 @@
-body {text-align: center;
-	background: beige;
+body {
+    background: #D6EAFB;
     font-family: arial;
-    }
+}
 
-h1{color:whitesmoke; font-family}
-h2{color:whitesmoke; font-family}
-h3{color:black;font-family}
+h2 {font-family: 'Bebas Neue', sans-serif;}
+  
+  .img{
+    object-fit: contain;
+width: 100%; height: 400px;
+  }
+
+
+.my-navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    background: white;
+    align-items: right;
+    
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    color:  ;
+    align-items: center;  
+
+}
+.link {
+    margin-left: 30px;
+    color: white;
+}
 
 .frame {
- background: lightcoral;
- padding: 10px;
- margin:70px;
+    background: whitesmoke;
+    padding: 10px;
+    margin: 50px ;
+    border: solid 5px ;
+    color: #117FE8;
+    border-radius: 3px ;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0);
+}
+   
+}
+h1 { color: hotpink;
+    text-align: center;
+}
+h2 { color:purple; 
+text-align: center;}
+p{ color:grey;
+text-align:center; }
+
+.frame-intro{
+    background: whitesmoke;
+    padding: 10px;
+    margin: 50px ;
+    border: solid 5px;
+    color: #117FE8;
+    border-radius: 3px ;
+}
+h3 {color: hotpink;
+text-align: center;
+}
+
+h4 {color: purple;
+text-align: center;
+}
 
 
- border: solid 5px hotpink;
- border-radius: 100px;
-  }
-/*.images/mcdoticketmama.jpg 
-width: 250px ;
-height: 250px ;
-border: none;
-}*/
 
-.box-frame {
+.papademiniframe{
     display: flex;
     justify-content: center;
+    text-align: center; 
+}
+.mini-frame{
+ background: whitesmoke;
+    padding: 10px;
+    margin: 50px ;
+    border: solid 5px;
+    color: #117FE8;
+    border-radius: 3px ;
+    width: 500px;
+    height: 300px;
 }
 
-.box-pink {
-    background: lightpink;
-    height: 500px;
-    width: 700px;
+.miniframedeux{
+    background: whitesmoke;
+    padding: 10px;
+    margin: 50px ;
+    border: solid 5px;
+    color: #117FE8;
+    border-radius: 3px ;
+    width: 500px;
+    height: 300px;
+}
+
+.miniframetrois {
+    background: whitesmoke;
+    padding: 10px;
+    margin: 50px ;
+    border: solid 5px;
+    color: #117FE8;
+    border-radius: 3px ;
+    width: 500px;
+    height: 300px;
+}
+
+.miniframequatre {
+      background: whitesmoke;
+    padding: 10px;
+    margin: 50px ;
+    border: solid 5px;
+    color: #117FE8;
+    border-radius: 3px ;
+    width: 500px;
+    height: 300px;
+}
+
+
+
+.papademiniframe {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.frameéquipe {
+    background: whitesmoke;
+    padding: 10px;
+    margin: 50px ;
+    border: solid 5px ;
+    color: blueviolet;
+    border-radius: 3px ;
 
 }
 
-.box-purple{
-    background: mediumpurple;
-    height: 500px;
-    width: 700px;
+
+.Frame {
+     background: whitesmoke;
+    padding: 10px;
+    margin: 50px ;
+    border: solid 5px ;
+    color: #117FE8;
+    border-radius: 3px ;
+    text-align: center; 
 }
 
-.box-white{
-    background: white;
-    height: 500px;
-    width: 700px;
+.framemarques {
+     background: whitesmoke;
+    padding: 10px;
+    margin: 50px ;
+    border: solid 5px ;
+    color: #117FE8;
+    border-radius: 3px ;
+    text-align: center; 
 }
 
-h4{color:whitesmoke;}
+.map {
+    background: whitesmoke;
+    padding: 10px;
+    margin: auto;
+    border: solid 5px ;
+    color: #117FE8;
+    border-radius: 3px ;
+
+   
+}
+h1 { color: hotpink;
+    text-align: center;
+}
+h2 { color:purple; 
+text-align: center;}
+p{ color:grey;
+text-align:center; }
+
+
+.Photo{
+
+border-radius: 50%;
+overflow: hidden;
+width: 200px;
+height: 200px;
+overflow: hidden;
+object-fit: cover;
+margin-left: 100px;
+}
+
+.logo {
+    display: flex;
+    height: 100%;
+    max-height: 100%;
+    max-width: auto;
+    margin-right: 20px;}
+
+
+
+
